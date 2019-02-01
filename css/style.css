@@ -1,8 +1,6 @@
 .main-container {
   margin: auto;
-  max-width: 100%;
-  padding-left: 20px !important;
-  padding-right: 20px !important; }
+  max-width: 100%; }
   .main-container .header .medium a .logo img {
     max-width: 40px; }
 
@@ -28,9 +26,7 @@
     cursor: pointer; }
 
 .medium-header-iconbar {
-  height: 42px !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  height: 65px !important;
   margin-left: auto !important;
   margin-right: auto !important; }
   .medium-header-iconbar .left-icon-box,
@@ -39,7 +35,7 @@
 
 .medium-header {
   max-width: 1032px !important;
-  margin: 35px auto; }
+  margin: 20px auto; }
 
 .btn-upgrade {
   border-color: gray; }
@@ -47,7 +43,25 @@
 .hover-black:hover {
   border-color: black; }
 
+.medium-logo img {
+  max-width: 114px; }
+
 .nav-item {
   display: inline-block;
   color: rgba(0, 0, 0, 0.54) !important;
   fill: rgba(0, 0, 0, 0.54) !important; }
+  .nav-item .nav-text a {
+    color: rgba(0, 0, 0, 0.54) !important;
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    font-style: normal !important;
+    letter-spacing: .05em !important;
+    text-transform: uppercase;
+    padding: 0 !important;
+    margin-right: 24px; }
+    .nav-item .nav-text a:hover {
+      color: black !important; }
+
+.medium-navigation-bar nav {
+  padding: 0 !important; }

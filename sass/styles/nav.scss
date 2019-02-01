@@ -1,5 +1,29 @@
-.nav-item{
+.nav-item {
     display: inline-block;
-    color: rgba(0,0,0,.54)!important;
-    fill: rgba(0,0,0,.54)!important;
+    color: rgba(0, 0, 0, .54) !important;
+    fill: rgba(0, 0, 0, .54) !important;
+
+    .nav-text {
+        a {
+            color: rgba(0, 0, 0, .54) !important;
+            font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+            font-size: 12px !important;
+            line-height: 20px !important;
+            font-style: normal !important;
+            letter-spacing: .05em !important;
+            text-transform: uppercase;
+            padding: 0 !important;
+            margin-right: 24px;
+
+            &:hover {
+                color: black !important;
+            }
+        }
+    }
+}
+
+.medium-navigation-bar{
+    nav{
+        padding: 0 !important;
+    }
 }
