@@ -1,0 +1,53 @@
+.main-container {
+  margin: auto;
+  max-width: 100%;
+  padding-left: 20px !important;
+  padding-right: 20px !important; }
+  .main-container .header .medium a .logo img {
+    max-width: 40px; }
+
+.left-icon-box {
+  position: relative; }
+
+.right-icon-box {
+  position: relative;
+  float: right; }
+  .right-icon-box .right-icon div {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 16px;
+    vertical-align: middle; }
+    .right-icon-box .right-icon div.profile img {
+      border-radius: 100%; }
+    .right-icon-box .right-icon div #search-text {
+      border: none; }
+      .right-icon-box .right-icon div #search-text:focus {
+        outline: none; }
+  .right-icon-box .right-icon div > * {
+    cursor: pointer; }
+
+.medium-header-iconbar {
+  height: 42px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin-left: auto !important;
+  margin-right: auto !important; }
+  .medium-header-iconbar .left-icon-box,
+  .medium-header-iconbar .right-icon-box {
+    display: inline-flex; }
+
+.medium-header {
+  max-width: 1032px !important;
+  margin: 35px auto; }
+
+.btn-upgrade {
+  border-color: gray; }
+
+.hover-black:hover {
+  border-color: black; }
+
+.nav-item {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.54) !important;
+  fill: rgba(0, 0, 0, 0.54) !important; }
