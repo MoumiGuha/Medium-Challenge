@@ -1,0 +1,32 @@
+.blog-container {
+    margin: 0 65px;
+
+    .blog-header {
+        .cover-text-box {
+            display: inline-block;
+            max-width: 612px;
+            width: 100%;
+            padding: 60px 60px 32px 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .cover-image-box {
+            display: inline-block;
+            .cover-image {
+                img {
+                    height: 60vh;
+                    min-height: 500px;
+                }
+            }
+            .cover-image-caption{
+                padding-top: 10px;
+                
+            }
+        }
+    }
+
+    .blog-body {}
+
+    .blog-footer {}
+}
