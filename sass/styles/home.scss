@@ -1,0 +1,57 @@
+.home-screen {}
+
+.home-container {}
+
+.featured {
+    max-width: 1208px;
+    margin: 12px auto 0 auto;
+
+    .featured1,
+    .featured2,
+    .featured3 {
+        display: inline-block;
+        width: 32%;
+    }
+
+    .featured1 {
+        margin-right: 24px;
+        width: 34.5%;
+
+        .featured1-post {
+            width: 100%;
+
+            .featured1-post-img {
+                margin-bottom: 16px;
+            }
+
+            .post-content {
+                margin-left: 88px;
+            }
+
+        }
+    }
+
+    .featured2 {
+        margin-right: 24px;
+        width: 31.5%;
+    }
+
+    .featured3 {
+
+        width: 29.1%;
+
+        .featured3-post {
+
+            .featured3-post-img {
+                width: 100%;
+                margin-bottom: 16px;
+            }
+
+            .post-content {
+                
+                margin-right: 66px;
+            }
+        }
+    }
+}
+
