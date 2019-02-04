@@ -55,3 +55,21 @@
     }
 }
 
+.featured-button{
+    margin-left: 133px;
+    /* display: block; */
+    max-width: 35%;
+    margin-top: 30px;
+    .featured-link{
+        text-transform: uppercase !important;
+        text-decoration: none;
+        font-size: 14px;
+        color: #03a87c!important;
+
+    }
+    .featured-next{
+        font-size: 12px!important;
+        text-decoration: none;
+        color: #03a87c!important;
+    }
+}

@@ -1,0 +1,38 @@
+.home-frontpage-left{
+    max-width: 680px;
+    padding-right: 24px!important;
+    display: inline-block;
+}
+
+.home-frontpage-right{
+    width: 328px;
+    display: inline-block;
+}
+.popular-list-title{
+    border-bottom: 1px solid rgba(0,0,0,.15)!important;
+    padding-bottom: 16px!important;
+    margin-right: 32px!important;
+    margin-left: 32px!important;
+    margin-top: 32px!important;
+    cursor: pointer;
+}
+
+.home-frontpage-container{
+    max-width: 1032px!important;
+    margin: 0 auto;
+}
+
+.list{
+    padding: 32px!important;
+    list-style: none;
+    li > *{
+        margin-bottom: 24px!important;
+        .list-number{
+            display: inline-block;
+        }
+        .list-textbox{
+            display: inline-block;
+        }
+    }
+    
+}
