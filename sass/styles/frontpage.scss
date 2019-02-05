@@ -1,38 +1,181 @@
-.home-frontpage-left{
+.home-frontpage-left {
     max-width: 680px;
-    padding-right: 24px!important;
+    padding-right: 24px !important;
     display: inline-block;
-}
 
-.home-frontpage-right{
-    width: 328px;
-    display: inline-block;
-}
-.popular-list-title{
-    border-bottom: 1px solid rgba(0,0,0,.15)!important;
-    padding-bottom: 16px!important;
-    margin-right: 32px!important;
-    margin-left: 32px!important;
-    margin-top: 32px!important;
-    cursor: pointer;
-}
+    article {
+        .article1-post {
+            margin-bottom: 48px !important;
 
-.home-frontpage-container{
-    max-width: 1032px!important;
-    margin: 0 auto;
-}
+            .post-content {
+                text-align: left !important;
+                min-width: 0 !important;
+                margin-right: 24px !important;
+                display: inline-block;
 
-.list{
-    padding: 32px!important;
-    list-style: none;
-    li > *{
-        margin-bottom: 24px!important;
-        .list-number{
-            display: inline-block;
-        }
-        .list-textbox{
-            display: inline-block;
+                .post {
+                    span {
+                        font-size: 14px;
+                        opacity: 0.5;
+                    }
+
+                    .post-description {
+                        font-size: 13px !important;
+                    }
+                }
+            }
+
+            img {
+                width: 152px;
+                vertical-align: top;
+            }
         }
     }
-    
+}
+
+.home-frontpage-right {
+    width: 328px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.popular-list-title {
+    border-bottom: 1px solid rgba(0, 0, 0, .15) !important;
+    padding-bottom: 16px !important;
+    margin-right: 32px !important;
+    margin-left: 32px !important;
+    margin-top: 32px !important;
+    cursor: pointer;
+
+    h3 {
+        font-size: 21px;
+    }
+}
+
+.home-frontpage-container {
+    max-width: 1032px !important;
+    margin: 0 auto;
+    margin-top: 48px !important;
+}
+
+.list {
+    padding: 32px !important;
+    list-style: none;
+
+
+
+}
+
+.popular-list {
+    margin-bottom: 20px;
+}
+
+ol {
+    .list-item {
+        margin-bottom: 24px !important;
+
+        .list-number {
+            font-size: 29px !important;
+            color: rgba(0, 0, 0, .15) !important;
+            margin-top: 4px !important;
+            display: inline-block;
+        }
+
+        .list-textbox {
+            margin-left: 16px !important;
+            max-width: 80%;
+            display: inline-block;
+            vertical-align: text-top;
+
+            .list-content {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.reading-list {
+    .reading-list-header {
+        background-color: #FBF9E0;
+        padding: 8px;
+        height: 124px;
+
+        h5 {
+            padding-right: 24px !important;
+            padding-top: 16px !important;
+            padding-bottom: 16px !important;
+            padding-left: 16px !important;
+            /* margin-top: 64px; */
+            width: 163px;
+            display: inline-block;
+            margin: 0 !important;
+            margin-right: 0% !important;
+            transform: translateY(22.28px);
+            font-size: 16px;
+        }
+
+        img {
+            width: 135px !important;
+            border: 0;
+            display: inline-block
+        }
+    }
+
+    .reading-list-content {
+        .reading-list-content-box {
+            padding: 32px !important;
+            background: #fafafa !important;
+            margin: 0;
+
+            .item {
+                list-style: none;
+
+                .item-bookmark {
+                    background: #fff !important;
+                    border: 1px solid rgba(0, 0, 0, .15) !important;
+                    border-radius: 999em;
+                    width: 32px !important;
+                    height: 32px !important;
+                    margin-top: 4px !important;
+                    text-align: center;
+                    display: inline-block;
+                    vertical-align: top;
+
+                    i {
+                        font-size: 15px;
+                        opacity: 0.6;
+                    }
+                }
+
+                .bookmark-content {
+                    display: inline-block;
+                    width: 83%;
+                    margin-left: 7px;
+
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 30px !important;
+
+    .footer-items {
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 14px !important;
+            color: rgba(0, 0, 0, .54) !important;
+            fill: rgba(0, 0, 0, .54) !important;
+            margin-right: 16px !important;
+        }
+
+    }
+}
+
+.post-title {
+    font-size: 15px;
 }

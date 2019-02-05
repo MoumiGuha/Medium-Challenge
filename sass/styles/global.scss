@@ -136,12 +136,15 @@ p{
 }
 
 .search-medium{
-    display: none;
+    margin-left: 0 !important;
     #search-text{
         font-size: 14px!important; 
+        display: none;
+        margin-left: 16px;
     }
 }
 
 hr{
     max-width: 1032px; 
 }
+
