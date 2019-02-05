@@ -24,6 +24,8 @@
     <!-- Own css file -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <script src="js/script.js"></script>
+
     <title>Blog</title>
 </head>
 
@@ -32,7 +34,7 @@
         <div class="main-container-box">
             <div class="main-container">
                 <!--Header Component Begins-->
-                <div class="medium-header">
+                <div class="medium-blog-header">
                     <div class="medium-header-iconbar">
                         <div class="left-icon-box">
                             <div class="left-icon">
@@ -81,7 +83,7 @@
                         <div class="blog-cover-container">
                             <div class="cover-text-box">
                                 <div class="medium-caption-box">
-                                    <p class="cap-text accentColor--textNormal u-marginBottom12">Member Feature Story</p>
+                                    <p class="cap-text u-marginBottom12"><b>member Feature Story</b></p>
                                 </div>
                                 <h1 class="medium-h1 marginBottom12">
                                     How I Adapted the Bullet Journal Method to
@@ -96,7 +98,7 @@
                                         <div class="author-avatar">
                                             <a class="link avatar" href="https://medium.com/@jennifertchan">
                                                 <img src="https://cdn-images-1.medium.com/fit/c/60/60/1*yZXgOoFcNuENjzXS9jE06A.jpeg"
-                                                    class="avatar-image avatar-image--small" alt="Go to the profile of Jennifer Chan">
+                                                    alt="Go to the profile of Jennifer Chan">
                                             </a>
                                         </div>
                                         <div class="author-details-box">
@@ -116,7 +118,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="caption-date">
+                                                    <span class="date">
+                                                        <time>Jan 22</time>
+                                                        <span class="dot"><i class="fas fa-circle"></i></span>
+                                                        <span id="min">5 min read</span>
+                                                        <span class="star"><i class="fas fa-star"></i></span>
 
+                                                    </span>
                                                 </div>
                                             </div>
                                         </div>
@@ -128,7 +136,8 @@
                                     <img src="https://cdn-images-1.medium.com/max/1600/1*u1QFySlQlYqBUCV_nRx9Tw.jpeg"
                                         alt="cover image">
                                 </div>
-                                <div class="cover-image-caption"><span class="caption">
+                                <div class="cover-image-caption">
+                                    <span class="caption">
                                         <p class="caption-text">
                                             Photo:
                                             <a href="https://unsplash.com/photos/6GPBVYLapYQ?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
@@ -141,12 +150,112 @@
                                                 Unsplash
                                             </a>
                                         </p>
-                                    </span></div>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="blog-body"></div>
-                    <div class="blog-footer"></div>
+                    <div class="blog-body">
+                        <div class="media-icon-box">
+                            <div class="media-icon">
+                                <div class="clap">
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div class="bookmark">
+                                    <i class="far fa-bookmark"></i>
+                                </div>
+                                <div class="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </div>
+                                <div class="facebook">
+                                    <i class="fab fa-facebook-square"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-text">
+                            <div class="text">
+                                <p>I am a tentative Marie Kondo fan. While I don’t fold my shirts into neat rolls or
+                                    divide my junk drawer into easily identifiable sections, I read<em class="markup--em markup--p-em">The
+                                        Life-Changing Magic of Tidying Up</em><em class="markup--em markup--p-em">That’s
+                                        cool.</em> I threw away a couple of old shirts and sweaters, maybe a few old
+                                    binders, and that was that.</p>
+
+                                <p>Perhaps the reason I don’t find Kondo’s tidying-up strategies particularly shocking
+                                    is because I spent <a href="#">five years in Japan</a>, training as a Zen Buddhist
+                                    nun. For three of those years, I lived and worked in a convent called Aichi Senmon
+                                    Nisodo, sharing a room with five Japanese women. We spent all day cooking,
+                                    cleaning, sewing, and performing ceremonies.</p>
+
+                                <p>Reading the <a href="#">discourse</a>, <a href="#">backlash</a>, and backlash to the
+                                    backlash surrounding Kondo’s methods, it has occurred to me just how little Western
+                                    people understand about Japanese culture. They tend to fixate on and exaggerate
+                                    Kondo’s innocuous suggestions (for example, to keep <a href="#">only 30 books</a>),
+                                    while overlooking the parts of her philosophy that deviate from the norms of her
+                                    culture — in other words, the aspects of her practice that are quite
+                                    groundbreaking.</p>
+
+                                <p>It’s important to understand both where Kondo fits into a larger tradition and where
+                                    she breaks away. This will help us avoid projecting our own exotification and
+                                    xenophobia onto her.</p>
+                            </div>
+                            <hr>
+                            <div class="author-mention-box">
+                                <div class="author-img">
+                                    <img src="https://cdn-images-1.medium.com/fit/c/300/300/1*ROKcpYecHU4hNEKAfmOnIQ.jpeg"
+                                        alt="oops">
+                                </div>
+                                <div class="details">
+                                    <span class="cap-text"><b>written by</b></span>
+                                    <h3>Gesshin Claire Greenwood</h3>
+                                    <p>Author of “Bow First, Ask Questions Later” and “Just Enough: Vegan Recipes and
+                                        Stories from Japan’s Buddhist Temples”</p>
+                                    <button type="button" class="btn hover-black btn-upgrade">Follow</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-footer">
+                        <div class="blog-footer-content">
+                            <section class="text-content">
+                                <div>
+                                    <h5>Discover Medium</h5>
+                                    <p>Welcome to a place where words matter. On Medium, smart voices and original
+                                        ideas take center stage — with no ads in sight. </p>
+                                </div>
+                                <div>
+                                    <h5>Make Medium yours</h5>
+                                    <p>Follow all the topics you care about, and we’ll deliver the best stories for you
+                                        to your homepage and inbox. </p>
+                                </div>
+                                <div>
+                                    <h5>Become a member</h5>
+                                    <p>Get unlimited access to the best stories on Medium — and support writers while
+                                        you’re at it. Just $5/month. </p>
+                                </div>
+                            </section>
+
+                            <section class="last-content">
+
+                                <div class="last-medium">
+                                    <a href="#">
+                                        <span class="medium-logo">
+                                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Medium_logo_Wordmark_Black.svg/2000px-Medium_logo_Wordmark_Black.svg.png"
+                                                style="max-width: 100px;" alt="oops!">
+                                        </span>
+                                    </a>
+                                </div>
+
+                                <div class="last-nav">
+                                    <span id="About">About</span>
+                                    <span id="Help">Help</span>
+                                    <span>Legal</span>
+                                </div>
+
+
+                            </section>
+                        </div>
+                    </div>
                 </div>
 
             </div>

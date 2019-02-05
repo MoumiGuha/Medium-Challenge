@@ -1,10 +1,25 @@
+.medium-blog-header {
+    margin-right: -20px;
+    margin-left: -20px;
+    padding: 12px 65px;
+    z-index: 2;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05) !important;
+}
+
+.medium-caption-box {
+    p {
+        font-size: 14px;
+        color: rgba(0, 0, 0, .54);
+    }
+}
+
 .blog-container {
     margin: 0 65px;
 
     .blog-header {
         .cover-text-box {
             display: inline-block;
-            max-width: 612px;
+            max-width: 545px;
             width: 100%;
             padding: 60px 60px 32px 0;
             vertical-align: top;
@@ -18,11 +33,11 @@
                 color: rgba(0, 0, 0, .54);
                 line-height: 28px;
             }
-            .author-box{
-                .blog-author{
 
-                }
-                .follow-button{
+            .author-box {
+                .blog-author {}
+
+                .follow-button {
                     padding: 2px 6px 1px 6px;
                     line-height: 1.2;
                     font-size: 13px;
@@ -36,7 +51,7 @@
             .cover-image {
                 img {
                     height: 60vh;
-                    min-height: 500px;
+                    min-height: 417px;
                 }
             }
 
@@ -47,7 +62,173 @@
         }
     }
 
-    .blog-body {}
+    .avatar {
+        padding-right: 10px !important;
 
-    .blog-footer {}
+        img {
+            border-radius: 100%;
+        }
+    }
+
+    .author-avatar {
+        display: inline-block;
+    }
+
+    .author-details-box {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .caption-name-link {
+        font-size: 14px;
+        display: inline-block;
+        padding-right: 4px;
+    }
+
+    .caption-follow {
+        display: inline-block;
+    }
+
+    .date {
+        time {
+            font-size: 13px;
+        }
+
+        #min {
+            font-size: 13px;
+        }
+    }
+
+    .dot {
+        font-size: 2px;
+    }
+
+    .star {
+        font-size: 9px;
+        color: gray !important;
+    }
+
+    .caption-text {
+        font-size: 14px;
+        color: gray !important;
+    }
+
+
+
+
+    .blog-body {
+        .media-icon-box {
+            max-width: 20px;
+            /* margin-right: 19px; */
+            display: inline-block;
+            margin-right: 186px;
+            margin-top: 134px;
+        }
+
+        .blog-text {
+            display: inline-block;
+            max-width: 740px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin: 58px auto;
+            vertical-align: top;
+
+            .text {
+                p>* {
+                    a {
+                        color: #171819 !important;
+                    }
+                }
+            }
+
+            .author-mention-box {
+                padding-top: 50px !important;
+                padding-bottom: 50px !important;
+
+                .author-img {
+                    display: inline-block;
+
+                    img {
+                        width: 152px;
+                        height: 152px;
+                        border-radius: 100%;
+                    }
+                }
+
+                .details {
+                    margin-left: 25px !important;
+                    display: inline-block;
+                    vertical-align: top;
+                    max-width: 69%;
+
+                    span {
+                        font-size: 13px;
+                        color: gray !important;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        margin-bottom: 16px !important;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .blog-footer {
+        background: rgba(0, 0, 0, .88);
+        margin-left: -85px;
+        margin-right: -85px;
+
+        .blog-footer-content {
+            max-width: 1000px !important;
+            padding-top: 50px !important;
+            padding-bottom: 50px !important;
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+
+            .text-content {
+                color: rgba(255, 255, 255, .85);
+                display: flex !important;
+
+                div {
+                    margin-right: 16px !important;
+                }
+
+                p {
+                    font-size: 14px;
+                    opacity: 0.5;
+                }
+
+            }
+
+            .last-content {
+                border-top: 1px solid !important;
+                border-color: rgba(255, 255, 255, .2) !important;
+                padding-top: 40px !important;
+
+                .last-medium{
+                    display: inline-block;
+                }
+
+                .last-nav {
+                    display: inline-block;
+                    color: rgba(255, 255, 255, .85);
+                    font-size: 14px;
+                    width: 200px !important;
+                    margin-left: 68%;
+                    opacity: 0.5;
+                    #About{
+                        padding-right: 42px;
+                    }
+                    #Help{
+                        padding-right: 42px; 
+                    }
+                }
+            }
+        }
+    }
 }
