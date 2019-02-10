@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+    <!-- Own css file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="js/script.js"></script>
+    <title>Create Blog</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main-content-box">
+            <div class="content-header-box">
+                <div class="content-header">
+                    <div class="medium-icon">
+                        <i class="fab fa-medium"></i>
+                    </div>
+                    <div class="draft">
+                        <span>Draft</span>
+                    </div>
+                    <div class="ready-btn">
+                        <button type="button" class="btn ready-btn btn-upgrade">Ready to publish?</button>
+                    </div>
+                    <div class="menu">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <div class="bell-icon">
+                        <i class="far hover-black fa-bell"></i>
+                    </div>
+                    <div class="profile">
+                        <img src="https://cdn-images-1.medium.com/fit/c/32/32/0*CBsPYm2P1EeDtfSN" alt="p">
+                    </div>
+                </div>
+            </div>
+            <div class="content-story-box">
+                <div class="add-media">
+                    <i id="media-icon" class="far fa-plus-square"></i>
+                </div>
+                <div class="content-story">
+
+                    <div class="write-story">
+                        <div class="story-title">
+                            <input type="text" id="titleInput" placeholder="Title">
+                        </div>
+                        <div class="story-des">
+                            <div id="write" contenteditable="true" data-placeholder="Tell your story..."></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

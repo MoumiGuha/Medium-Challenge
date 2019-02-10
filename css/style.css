@@ -622,3 +622,71 @@ ol .list-item {
 
 .reader-action-content .rac-right {
   float: right; }
+
+.ready-btn {
+  padding: 0;
+  font-size: 14px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-color: #03a87c;
+  color: #03a87c;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 20px; }
+
+.content-header {
+  margin-left: 146px;
+  margin-right: 146px;
+  margin-top: 12px; }
+  .content-header > div {
+    display: inline-block; }
+  .content-header .profile img {
+    border-radius: 100%; }
+  .content-header .medium-icon i {
+    font-size: 38px; }
+  .content-header .draft {
+    vertical-align: super;
+    margin-left: 10px; }
+    .content-header .draft span {
+      font-size: 14px; }
+  .content-header .ready-btn {
+    vertical-align: baseline;
+    margin-left: 340px; }
+  .content-header .menu {
+    font-size: 15px; }
+  .content-header .bell-icon {
+    margin-left: 20px; }
+  .content-header .profile {
+    margin-left: 20px; }
+
+.content-story-box .add-media i {
+  position: absolute;
+  left: 22vw;
+  top: 195px; }
+
+.content-story-box .content-story {
+  max-width: 740px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  margin: 0 auto; }
+  .content-story-box .content-story .write-story .story-title input {
+    border: none;
+    width: 400px; }
+    .content-story-box .content-story .write-story .story-title input:focus {
+      outline: none; }
+  .content-story-box .content-story .write-story .story-title input,
+  .content-story-box .content-story .write-story .story-title input::-webkit-input-placeholder {
+    font-size: 43px;
+    line-height: 3;
+    color: #b3b3b1;
+    font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif; }
+  .content-story-box .content-story .write-story .story-des #write {
+    min-height: 40vh;
+    z-index: 1111; }
+    .content-story-box .content-story .write-story .story-des #write[contentEditable=true]:empty:not(:active):before {
+      content: attr(data-placeholder);
+      color: #b3b3b1;
+      font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif; }
+    .content-story-box .content-story .write-story .story-des #write:focus {
+      outline: none; }
